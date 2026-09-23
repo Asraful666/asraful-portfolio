@@ -9,7 +9,16 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background: #0f172a;
-  color: #ffffff;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+a {
+  font-family: inherit;
 }
