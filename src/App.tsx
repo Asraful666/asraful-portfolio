@@ -281,9 +281,104 @@ function App() {
   </div>
 </section>
 
-        <section id="education" className="section">
-          <h2>Education</h2>
-        </section>
+        <section id="education" className="section education-section">
+  <div className="container">
+
+    <div className="section-heading">
+      <p>MY JOURNEY</p>
+      <h2>Education & Learning</h2>
+    </div>
+
+    <div className="education-timeline">
+
+      {/* SIU */}
+      <div className="education-item">
+        <div className="education-dot"></div>
+
+        <div className="education-card">
+          <span className="education-label">
+            UNIVERSITY
+          </span>
+
+          <h3>Sylhet International University (SIU)</h3>
+
+          <h4>CSE Department Student</h4>
+
+          <p>
+            Studying Computer Science and Engineering with a focus on
+            programming, software development, web technologies and
+            computer science fundamentals.
+          </p>
+        </div>
+      </div>
+
+
+      {/* Uniatena */}
+      <div className="education-item">
+        <div className="education-dot"></div>
+
+        <div className="education-card">
+          <span className="education-label">
+            PROFESSIONAL DIPLOMA
+          </span>
+
+          <h3>Uniatena</h3>
+
+          <h4>Executive Diploma in Machine Learning</h4>
+
+          <p>
+            Developing knowledge of machine learning concepts,
+            programming and practical applications of intelligent systems.
+          </p>
+        </div>
+      </div>
+
+
+      {/* Programming Hero */}
+      <div className="education-item">
+        <div className="education-dot"></div>
+
+        <div className="education-card">
+          <span className="education-label">
+            PROFESSIONAL TRAINING
+          </span>
+
+          <h3>Programming Hero</h3>
+
+          <h4>UI/UX & Web Development</h4>
+
+          <p>
+            Learning modern web development, responsive UI design,
+            frontend technologies and practical development workflows.
+          </p>
+        </div>
+      </div>
+
+
+      {/* University of the People */}
+      <div className="education-item">
+        <div className="education-dot"></div>
+
+        <div className="education-card">
+          <span className="education-label">
+            UNIVERSITY
+          </span>
+
+          <h3>University of the People</h3>
+
+          <h4>Computer Science Student</h4>
+
+          <p>
+            Studying computer science fundamentals and developing a
+            broader foundation in software and technology.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
         <section id="contact" className="section">
           <h2>Contact</h2>
