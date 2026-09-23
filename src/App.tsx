@@ -380,10 +380,134 @@ function App() {
   </div>
 </section>
 
-        <section id="contact" className="section">
-          <h2>Contact</h2>
-        </section>
+        <section id="contact" className="section contact-section">
+  <div className="container">
+
+    <div className="section-heading">
+      <p>GET IN TOUCH</p>
+      <h2>Let's Work Together</h2>
+    </div>
+
+    <div className="contact-content">
+
+      <div className="contact-info">
+
+        <h3>Have a project in mind?</h3>
+
+        <p>
+          I'm always interested in learning, building new projects and
+          connecting with other developers. Feel free to reach out.
+        </p>
+
+        <div className="contact-links">
+
+          <a href="mailto:your-email@gmail.com">
+            <span>Email</span>
+            <strong>your-email@gmail.com</strong>
+          </a>
+
+          <a
+            href="https://github.com/Asraful666"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>GitHub</span>
+            <strong>github.com/Asraful666</strong>
+          </a>
+
+          <a href="#">
+            <span>LinkedIn</span>
+            <strong>Connect with me on LinkedIn</strong>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <form className="contact-form">
+
+        <div className="form-group">
+          <label htmlFor="name">Your Name</label>
+
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+
+
+        <div className="form-group">
+          <label htmlFor="email">Your Email</label>
+
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+
+        <div className="form-group">
+          <label htmlFor="message">Message</label>
+
+          <textarea
+            id="message"
+            rows={6}
+            placeholder="Write your message..."
+          ></textarea>
+        </div>
+
+
+        <button type="submit" className="submit-btn">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
       </main>
+
+      <footer className="footer">
+
+  <div className="container footer-container">
+
+    <div>
+      <a href="#home" className="footer-logo">
+        Asraful<span>.</span>
+      </a>
+
+      <p>
+        Tech Educator • Developer • ML Practitioner
+      </p>
+    </div>
+
+
+    <div className="footer-links">
+
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+
+  <div className="footer-bottom">
+
+    <p>
+      © 2026 Md Asraful Islam. All rights reserved.
+    </p>
+
+  </div>
+
+</footer>
     </>
   );
 }
