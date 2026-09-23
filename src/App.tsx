@@ -10,6 +10,12 @@ function App() {
         <section id="home" className="hero">
           <div className="container hero-container">
             <div className="hero-content">
+               <img
+        src="/profile.png"
+        alt="Md. Asraful Islam"
+        className="profile-image"
+      />
+
               <p className="hero-subtitle">Hello, I'm</p>
 
               <h1>
@@ -17,7 +23,9 @@ function App() {
               </h1>
 
               <h2>Aspiring Full-Stack Developer</h2>
-
+<p className="hero-role">
+  Tech Educator • Developer • ML Practitioner
+</p>
               <p className="hero-description">
                 I'm a Computer Science Engineering student passionate about
                 building modern and responsive web applications.

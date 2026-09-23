@@ -1016,3 +1016,179 @@
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .nav-container {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: none;
+
+    position: absolute;
+
+    top: 72px;
+    left: 0;
+
+    width: 100%;
+
+    padding: 20px;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 18px;
+
+    background: #020617;
+
+    border-top: 1px solid #1e293b;
+    border-bottom: 1px solid #1e293b;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .github-btn {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    background: #1e293b;
+
+    color: white;
+
+    border: 1px solid #334155;
+
+    border-radius: 8px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+  }
+
+  .hero {
+    padding: 60px 0;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 44px;
+  }
+
+  .hero-content h2 {
+    font-size: 24px;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.menu-btn {
+  display: none;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content {
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.hero-card {
+  animation: fadeUp 0.8s ease 0.2s both;
+}
+
+.skill-card,
+.project-card,
+.education-card {
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.hero-role {
+  color: #38bdf8;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+.profile-image {
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 4px solid #38bdf8;
+
+  margin-bottom: 25px;
+
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.25);
+}
+@media (max-width: 768px) {
+  .profile-image {
+    width: 125px;
+    height: 125px;
+  }
+}
