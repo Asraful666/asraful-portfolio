@@ -147,9 +147,139 @@ function App() {
   </div>
 </section>
 
-        <section id="projects" className="section">
-          <h2>Projects</h2>
-        </section>
+        <section id="projects" className="section projects-section">
+  <div className="container">
+
+    <div className="section-heading">
+      <p>MY WORK</p>
+      <h2>Featured Projects</h2>
+    </div>
+
+    <div className="projects-grid">
+
+      {/* Project 01 */}
+      <article className="project-card">
+
+        <div className="project-number">
+          01
+        </div>
+
+        <div className="project-content">
+          <h3>Sports Tournament Management</h3>
+
+          <p>
+            A modern sports tournament management web application where
+            users can manage tournaments, teams, players, matches and
+            tournament results.
+          </p>
+
+          <div className="project-tech">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>CSS</span>
+          </div>
+
+          <div className="project-links">
+            <a
+              href="https://github.com/Asraful666"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a href="#" className="live-link">
+              Live Demo ↗
+            </a>
+          </div>
+        </div>
+
+      </article>
+
+
+      {/* Project 02 */}
+      <article className="project-card">
+
+        <div className="project-number">
+          02
+        </div>
+
+        <div className="project-content">
+          <h3>Movie Explorer</h3>
+
+          <p>
+            A movie exploration web application built with React.
+            Users can explore movies and view movie-related information
+            through a clean and responsive interface.
+          </p>
+
+          <div className="project-tech">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>CSS</span>
+            <span>Vite</span>
+          </div>
+
+          <div className="project-links">
+            <a
+              href="https://github.com/Asraful666"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a href="#" className="live-link">
+              Live Demo ↗
+            </a>
+          </div>
+        </div>
+
+      </article>
+
+
+      {/* Project 03 */}
+      <article className="project-card">
+
+        <div className="project-number">
+          03
+        </div>
+
+        <div className="project-content">
+          <h3>DevConf 2026</h3>
+
+          <p>
+            A responsive developer conference website designed to present
+            event information, speakers, schedules and conference details.
+          </p>
+
+          <div className="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <div className="project-links">
+            <a
+              href="https://github.com/Asraful666"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub ↗
+            </a>
+
+            <a href="#" className="live-link">
+              Live Demo ↗
+            </a>
+          </div>
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+</section>
 
         <section id="education" className="section">
           <h2>Education</h2>
